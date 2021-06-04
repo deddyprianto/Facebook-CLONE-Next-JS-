@@ -11,16 +11,17 @@ const Login = () => {
       </Head>
       <div className="h-screen grid place-items-center">
         <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/768px-Facebook_f_logo_%282019%29.svg.png"
-          height={400}
-          width={400}
+          src="/img/logo.png"
+          height={500}
+          width={500}
+          layout="fixed"
           objectFit="contain"
         />
         <h1
           onClick={signIn}
-          className="p-5 bg-blue-500 rounded-full text-white text-center cursor-pointer"
+          className="p-5 bg-gray-900 rounded-lg text-white text-center cursor-pointer"
         >
-          Login Dengan Facebook
+          Login Pake Gmail
         </h1>
       </div>
     </div>

@@ -11,7 +11,7 @@ export default function Home({ session }) {
   return (
     <div className="h-screen bg-gray-100 overflow-hidden">
       <Head>
-        <title>Facebook Clone</title>
+        <title>DeyNoteBook</title>
         <meta name="description" content="Clone Facebook App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

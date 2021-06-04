@@ -23,18 +23,13 @@ const Header = () => {
   return (
     <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       <div className="flex items-center lg:space-x-2 md:space-x-2">
-        <Image
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/480px-Facebook_f_logo_%282019%29.svg.png"
-          width="40"
-          height="40"
-          layout="fixed"
-        />
+        <Image src="/img/logo.png" width="50" height="50" layout="fixed" />
         <div className="hidden lg:flex items-center rounded-full bg-gray-100 ">
           <SearchIcon className="lg:h-5 md:h-5" />
           <input
             className="h-7 flex-grow px-5 bg-gray-100  rounded-full focus:outline-none truncate"
             type="text"
-            placeholder="Cari di Facebook"
+            placeholder="Cari di DeyNoteBook"
           />
         </div>
       </div>
