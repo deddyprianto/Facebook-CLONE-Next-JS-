@@ -46,9 +46,14 @@ const Header = () => {
       </div>
       {/* right */}
       <div className="flex items-center sm:space-x-2 justify-end">
-        <p className="whitespace-nowrap font-semibold pr-3">
-          {session?.user?.name}
-        </p>
+        <Image
+          className="rounded-full"
+          src={session?.user?.image}
+          width={30}
+          height={30}
+          layout="fixed"
+          onClick={signOut}
+        />
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />
         <BellIcon className="icon" />
